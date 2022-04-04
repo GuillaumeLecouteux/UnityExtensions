@@ -180,8 +180,8 @@ namespace JauntyBear.UnityExtensions
 		/// </example>
 		public static float Wlerp01(float v1, float v2, float t)
 		{
-			DebugExt.Assert(InRange(v1, 0, 1), "v1 is not in [0, 1)");
-			DebugExt.Assert(InRange(v2, 0, 1), "v2 is not in [0, 1)");
+			Debug.Assert(InRange(v1, 0, 1), "v1 is not in [0, 1)");
+			Debug.Assert(InRange(v2, 0, 1), "v2 is not in [0, 1)");
 
 			if (Mathf.Abs(v1 - v2) <= 0.5f)
 			{
