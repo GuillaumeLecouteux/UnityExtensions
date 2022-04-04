@@ -1,0 +1,11 @@
+{
+  "name": "com.jauntybear.unityextensions",
+  "version": "1.0.0",
+  "displayName": "Jaunty Bear Unity Extensions",
+  "description": "A package of tools for Unity 3D class extensions",
+  "unity": "2020.3",
+  "author": {
+    "name": "Guillaume Lecouteux",
+    "url": "https://jauntybear.com"
+  }
+}
